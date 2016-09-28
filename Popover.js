@@ -124,9 +124,7 @@ var Popover = React.createClass({
     }
   },
   computeLeftGeometry({displayArea, fromRect, contentSize, arrowSize}) {
-    var popoverOrigin = new Point(fromRect.x - contentSize.width - arrowSize.width,
-      Math.min(displayArea.y + displayArea.height - contentSize.height,
-        Math.max(displayArea.y, fromRect.y + (fromRect.height - contentSize.height) / 2)));
+    var popoverOrigin = new Point(fromRect.x - contentSize.width - arrowSize.width, fromRect.y + (fromRect.height - contentSize.height) / 2)));
     var anchorPoint = new Point(fromRect.x, fromRect.y + fromRect.height / 2.0);
 
     return {
@@ -136,9 +134,7 @@ var Popover = React.createClass({
     }
   },
   computeRightGeometry({displayArea, fromRect, contentSize, arrowSize}) {
-    var popoverOrigin = new Point(fromRect.x + fromRect.width + arrowSize.width,
-      Math.min(displayArea.y + displayArea.height - contentSize.height,
-        Math.max(displayArea.y, fromRect.y + (fromRect.height - contentSize.height) / 2)));
+    var popoverOrigin = new Point(fromRect.x + fromRect.width + arrowSize.width, fromRect.y + (fromRect.height - contentSize.height) / 2)));
     var anchorPoint = new Point(fromRect.x + fromRect.width, fromRect.y + fromRect.height / 2.0);
 
     return {
