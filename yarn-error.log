@@ -1,0 +1,55 @@
+Arguments: 
+  /Users/chrisgreening/.nvm/versions/node/v8.9.4/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js upgrade-interactive --latest
+
+PATH: 
+  /Users/chrisgreening/.pyenv/shims:/Users/chrisgreening/anaconda/bin:/Users/chrisgreening/.rbenv/shims:/Users/chrisgreening/.rbenv/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/chrisgreening/.nvm/versions/node/v8.9.4/bin:/usr/local/heroku/bin:/usr/local/bin:/Users/chrisgreening/Work/oclint/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/share/dotnet:/Users/chrisgreening/.pyenv/shims:/Users/chrisgreening/anaconda/bin:/Users/chrisgreening/.rbenv/shims:/Users/chrisgreening/.rbenv/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/heroku/bin:/Users/chrisgreening/Work/oclint/bin:/users/chrisgreening/Work/ec2-api-tools-1.6.7.1//bin:/usr/local/cuda/bin:~/Library/Python/2.7/bin:/users/chrisgreening/Work/ec2-api-tools-1.6.7.1//bin:/usr/local/cuda/bin:~/Library/Python/2.7/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "react-native-popover",
+    "version": "0.4.0",
+    "description": "A <Popover /> component for react-native",
+    "main": "Popover.js",
+    "author": "Jean Regisser <jean.regisser@gmail.com> (https://github.com/jeanregisser)",
+    "keywords": [
+      "react-component",
+      "react-native",
+      "ios",
+      "ui",
+      "popover",
+      "modal"
+    ],
+    "license": "MIT",
+    "scripts": {
+      "start": "node_modules/react-native/packager/packager.sh"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:jeanregisser/react-native-popover.git"
+    },
+    "devDependencies": {
+      "react": "^15.0.2",
+      "react-native": "^0.26.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: No lockfile in this directory. Run `yarn install` to generate one.
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:186:110)
+      at /usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:89389:13
+      at <anonymous>
